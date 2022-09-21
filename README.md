@@ -3,6 +3,7 @@
 ###### Overview
 In this project you can Add your Products to list,Delete them from list and in the end you can find grand total for all your items added to 
 this list.
+![Screenshot (23)](https://user-images.githubusercontent.com/91521477/191479738-1f051627-294c-4416-8767-48e8747642ce.png)
 
 ###### Languages Used
 * HTML5
