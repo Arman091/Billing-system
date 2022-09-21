@@ -1,0 +1,136 @@
+header{
+    margin: 4px 10px;
+    background-color: rgb(219, 156, 78);
+    text-transform: capitalize;
+    color: black;
+    height: 105px;
+    border: 2px solid rgb(219, 156, 78);
+}
+
+.container{
+    margin: 0em auto;
+    width: 30%;
+}
+h1{
+    margin-left: 2em;
+}
+
+/* ================================================================
+===================================================================
+table markup for whole table*/
+.parent{
+    border: 2px solid maroon;
+    width: 70%;
+    margin: 4em auto;
+    height: fit-content;
+    border-collapse: collapse;
+    user-select: none;
+    
+}
+
+/*==============================================
+== table markup for table head only*/
+.head{
+    
+    font-family: sans-serif;
+    text-transform: capitalize;
+    border-bottom: 2px solid maroon;
+    width: auto;
+    
+}
+
+.parent thead tr{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.parent th,.parent td{
+    padding: 6px 12px;;
+}
+.input{
+    
+    margin-bottom: 1.5em;
+}
+label{
+    display: block;
+    font-size: 1.2em;
+    width: 20%;
+    margin-left: 16.7em;
+    
+}
+input{
+    width: 50%;
+    border: 2px solid black;
+    margin-left: 24em;
+}
+
+#submit{
+    border: 2px solid black;
+    margin-left: 28em;
+    text-align: center;
+    background-color: green;
+    color: beige;
+    user-select: none; 
+    
+    
+    
+}
+
+#submit:hover{
+    cursor:pointer;
+    background-color: #c9eabe;
+    color: black;
+}
+
+
+/*===============================================================
+================================================================
+will assign only after javascript applied*/
+.cross{
+    position: inherit;
+    background-color: red;
+    color: white;
+    border: 1px solid white ;
+    user-select: none;
+    cursor: pointer;
+}
+.data {
+
+    font-size: 1.02rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.parent tbody tr:nth-of-type(even){
+    background-color:#74dac6;
+}
+
+
+/*Alert properties for our fields */
+
+.alert{
+    text-align: center;
+    background-color: rgb(236, 68, 38);
+    color: white;
+    width: 600px;
+    height: 250px;
+    border-radius: 6px;
+    border: 2px solid black;
+    position: absolute;
+    top: 19%;
+    left: 40%;
+    transform: translate(-40%,-50%);
+    visibility: hidden;
+}
+
+.open-popup{
+    visibility: visible;
+}
+button{
+    width: 72px;
+    font-weight: bold;
+}
+
