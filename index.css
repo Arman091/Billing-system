@@ -134,3 +134,26 @@ button{
     font-weight: bold;
 }
 
+/* styling for our total div*/
+.total{
+    width: 69.7%;
+    border: 2px solid maroon;
+    margin: -4em auto;
+}
+
+#check{
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+#t_price{
+    border: 2px solid black;
+    width: 20%;
+    display: inline-block;
+    margin-left: 36em;
+    border-radius: 23px;
+    font-weight: bold;
+    text-align: center;
+}

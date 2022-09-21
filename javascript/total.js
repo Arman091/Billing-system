@@ -17,7 +17,7 @@ btn.addEventListener("click", () => {
     
 
     //=============funtionality to change total==================
-   let price=document.getElementById("label")
+   let price=document.getElementById("t_price")
     price.innerText = "$"+sum;
 })
       

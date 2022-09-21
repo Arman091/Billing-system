@@ -1,5 +1,5 @@
 import { UI } from './UI_class.js';
-import { toArray } from './storage.js';
+import { toArray } from './total.js';
 //our class to create  a new Product
 
 class Product {

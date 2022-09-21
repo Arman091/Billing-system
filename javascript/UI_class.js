@@ -14,7 +14,7 @@
         
                     <td class="data" id="pname">${product.name}</td>
                     <td class="data" id="pid">${product.id}</td>
-                    <td class="data" id="pprice">${product.price}</td>
+                    <td class="data" id="pprice">$${product.price}</td>
                     <td class="data cross" id="pcross">X</td>
         `
         list.appendChild(row);
