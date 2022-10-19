@@ -131,22 +131,26 @@ button {
   margin: -4em auto;
   display: flex;
   justify-content: space-between;
+  visibility: hidden;
 }
-
+.show {
+  visibility: visible;
+}
 #total_heading {
   width: 20%;
-  background-color:#c9eabe;
-  border-radius: 11px;
+  background-color: #c9eabe;
+  border: 0.5px solid burlywood;
+ user-select: none;
   text-align: center;
   font-weight: bold;
 }
 
 #t_price {
-  background-color: #74dac6;
+  background-color: #c9eabe;
+  border: 0.5px solid burlywood;
   width: 20%;
   display: inline-block;
 
-  border-radius: 23px;
   font-weight: bold;
   text-align: center;
 }

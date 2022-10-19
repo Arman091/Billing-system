@@ -1,5 +1,8 @@
+//THIS IS MAIN ENTRY POINT OF OUR APP
+
 import { UI } from "./UI_class.js";
 import { toArray } from "./total.js";
+
 //our class to create  a new Product
 
 class Product {
@@ -42,7 +45,9 @@ submit.addEventListener("click", () => {
     //method to store our elements in some array
     toArray(new_product);
 
-    //method to append a row in table end
+    //method to append a class on total div
+    let total_classes = document.querySelector(".total");
+    total_classes.classList.add("show");
 
     //====================================================================================================
     // method to clear our input fields after adding an item to list
