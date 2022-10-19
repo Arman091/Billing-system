@@ -19,6 +19,7 @@ this list.Also you can find total at the end of the list.
 ###### NOTE: **Update 2.0**
 After update 2.0 we have removed **FIND TOTAL** Button Now sum of all items prices
 will be reflected in the end of Cart as soon as a change is made in List i.e Remove or Add Item
+![Screenshot (27)](https://user-images.githubusercontent.com/91521477/196629030-8198393a-7c4a-451c-a54b-3b2aa269210d.png)
 
 ## How can I contribute
 
