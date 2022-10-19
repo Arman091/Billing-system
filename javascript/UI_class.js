@@ -1,6 +1,7 @@
+import { UniqueId } from "./total.js";
+
 /*=================================================================
   in this module we will handle our UI ralated functions and classes */
-
 
  export class UI {
     
@@ -49,8 +50,18 @@
     //================ code to delete a list from a table======================== 
      let cross = document.getElementById("student_list");
     cross.addEventListener("click", (e) => {
+    
+        UI.delete(e.target);
+        
+        const list_name = e.target.parentElement.childNodes[1];
+        const list_id = e.target.parentElement.childNodes[3];
 
-    UI.delete(e.target);
+        const myId =list_id.textContent
+        const myname = list_name.textContent
+        UniqueId(myname,myId);
+
+        
+        
      })
 
      //========method to append total column in the end of list==================
